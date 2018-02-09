@@ -88,6 +88,16 @@ Installation can be done in one of 2 options:
 
 
 ## Changelog
+### v0.9.3
+- tbtadm: added `peers` command and xdomain now shown in topology output
+- tbtadm: added `add` comand for adding to ACL without `approve`
+- tbtadm: fixed adding to ACL in secure level 0
+- tbtadm: fixed Coverity error reformatting string array initialization
+- tbtadm: fixed multi-controller topology tree
+- tbtadm: improved readability of console output
+- tests: added automatic testing in umockdev simulated environment with docker
+- build: remove unneeded `libboost-program-options` dependency
+
 ### v0.9.2
 - tbtadm: added `--once` flag for `approve-all` command
 - tbtadm: `approve` command added
